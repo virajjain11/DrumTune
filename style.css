@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,500&display=swap');
+
 body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* background-color:; */
@@ -8,11 +11,14 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
     height: 100vh;
 }
 .keys{
     display: flex;
-    height: 30%;
+    /* height: 80%; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;    
 }
@@ -46,3 +52,14 @@ kbd{
     text-transform: uppercase;
     color: #ffc600;
 }
+.head{
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+    /* padding-top: 2rem; */
+    text-shadow: 0 0 .5rem #e31212c2;
+    letter-spacing: .2rem;
+    color:#ffe304de ;
+    font-family: 'Source Serif 4', sans-serif;
+
+ }
